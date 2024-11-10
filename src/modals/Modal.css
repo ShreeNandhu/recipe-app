@@ -1,0 +1,92 @@
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto; /* Ensure the overlay can scroll */
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 80vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    position: relative;
+}
+
+/* Scrollbar Styling */
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background-color: #ffa500;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+/* Recipe Image */
+.recipe-image {
+    display: block;
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Center image horizontally */
+}
+
+/* Heading Styles */
+h2,
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* List Styling */
+ul {
+    list-style-type: circle;
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Additional Styling for Missing Recipe */
+.missing-recipe {
+    text-align: center;
+    font-size: 18px;
+    color: #f44336;
+    font-weight: bold;
+    margin-top: 20px;
+}

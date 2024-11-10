@@ -1,0 +1,43 @@
+/* Dish List Container */
+.dish-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  /* Individual Dish Item */
+  .dish-item {
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    max-width: 150px;
+  }
+  
+  .dish-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Dish Image */
+  .dish-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  /* Dish Name */
+  .dish-item p {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  

@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; 
+    /* Orange background for header */
+  }
+  
+  .title {
+    font-size: 1.5em;
+    color: #5e2626;
+  }
+  
+  .nav-box {
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+    width: 500px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, rgba(255, 165, 0, 0.5), rgba(255, 140, 0, 0.5)); /* Orange gradient */
+    border: 2px solid rgba(255, 140, 0, 0.5); /* Semi-transparent orange border */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 15px rgba(255, 140, 0, 0.5);
+    justify-content: center; /* Orange shadow */
+  }
+  
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #000000;
+  }
+  

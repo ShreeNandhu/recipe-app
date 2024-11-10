@@ -1,0 +1,25 @@
+.home {
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  font-size: large;
+  padding-bottom: 0px;
+  font-weight: Bold;
+}
+
+.user {
+  font-weight: Bold;
+  font-size: 80px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.randomPhrase {
+  font-size: 1.5em;
+  width: auto;
+  color: #ffa500;
+}
