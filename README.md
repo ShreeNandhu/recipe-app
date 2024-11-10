@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Recipe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Recipe App! This application allows users to explore a wide variety of recipes based on ingredients, categories, and food cravings. Whether you're feeling hungry or just looking for new dishes to try, this app provides personalized recipe recommendations and detailed cooking instructions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home Page**: Displays personalized messages based on the time of day (Good morning/evening) and a welcome message.
+- **Recipe Recommendations**: Users can click on "WantToCook" to get recipe suggestions tailored to their cravings.
+- **Dish Categories**: Users can browse recipes based on different categories like breakfast, lunch, or dinner.
+- **Search Functionality**: Users can search for recipes by ingredients, category, or exact dish name.
+- **Typing Animation**: Interactive text such as "Do you feel hungry?" or "It's time to cook" appear in a typing animation style.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: For building the frontend user interface.
+- **MealDB API**: Provides access to a large collection of recipes and food-related data.
+- **CSS**: For styling the app, including a glass box navigation header with an orange background.
+- **Axios**: For making HTTP requests to fetch recipe data from the MealDB API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/recipe-app.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
+   ```bash
+   cd recipe-app
 
-### `npm run build`
+3. Run the app in development mode:
+   ```bash
+   npm start
+The app will open in your browser at http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+- **Homepage:** When you load the page, it will greet you with a message based on the time of day.
+- **Recipe Search:** You can search for recipes by ingredients, categories, or the name of the dish.
+- **Recommendations:** Click on the "WantToCook" link in the header to view recipe suggestions based on your cravings.
+- **Dishes:** Explore various categories of dishes, such as snacks, appetizers, or desserts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## API Used
+The application uses the MealDB API to fetch recipe data. This API provides detailed information on recipes, ingredients, and instructions for preparing various dishes.
